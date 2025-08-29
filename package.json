@@ -1,0 +1,16 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "description": "REST API for BFHL assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["api", "rest", "bfhl"],
+  "author": "Priyanshu Kumar",
+  "license": "",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

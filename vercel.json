@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "vercel.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/bfhl",
+      "dest": "/vercel.js"
+    },
+    {
+      "src": "/",
+      "dest": "/vercel.js"
+    }
+  ]
+} 
